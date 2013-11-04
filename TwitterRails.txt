@@ -1,0 +1,16 @@
+Create a new rails app.
+Create a new github repo
+Link your project to the repo....commit/push
+
+Create a new model called "Tweet"
+     -id, created_at, updated_at (content - string)
+
+Migrate your database ----> tweets
+
+Create a controler called tweets (2 or 3 actions -index -create) (http:localhost:3000/)
+
+Route to your controller actions (2)
+
+
+
+Then implement all of twitter.******* Figure this out*****
