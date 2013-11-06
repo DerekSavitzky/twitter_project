@@ -1,2 +1,12 @@
-<h1>Tweets#index</h1>
-<p>Find me in app/views/tweets/index.html.erb</p>
+<h1>Create A New Tweet</h1>
+
+<%= form_for @tweet do |f| %>
+  <%= f.text_field :content %>
+  <%= f.submit %>
+<% end %>
+
+<div ="tweets">
+  <% @tweets.each do |tweet| %>
+  <p class ="tweet"><%= tweet.content %></p>
+<% end %>
+</div>
